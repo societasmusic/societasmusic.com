@@ -11,7 +11,7 @@ export default function Header() {
                 <div className="d-flex align-items-center gap-4">
                     <Link href={"/"} className="text-body text-uppercase underline-none fw-semibold hover-primary">Home</Link>
                     <Link href={"/about"} className="text-body text-uppercase underline-none fw-semibold hover-primary">About</Link>
-                    <Link href={"/labels"} className="text-body text-uppercase underline-none fw-semibold hover-primary">Our Labels</Link>
+                    {/* <Link href={"/labels"} className="text-body text-uppercase underline-none fw-semibold hover-primary">Our Labels</Link> */}
                     <Link href={"https://symphonicms.com"} target="_blank" className="text-body text-uppercase underline-none fw-semibold hover-primary">Royalty Portal</Link>
                     <Link href={"https://societasmusic.eventbrite.com"} target="_blank" className="text-body text-uppercase underline-none fw-semibold hover-primary">Events</Link>
                     <Link href={"https://store.societasmusic.com"} target="_blank" className="text-body text-uppercase underline-none fw-semibold hover-primary">Store</Link>
